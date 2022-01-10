@@ -3,6 +3,10 @@ Some tests I was doing to learn OpenCV for python. A lot of the "scripts" are sh
 After learning the tools available I used it in combinations with mss to create a fairly performant app that screen caps and allows you
 to save the last few minutes of your screen. Need to update a path to save the video to in it's current form (V 0.1 beta...) 
 
+<br>
+
+To see the app in play, take a look at videoCapScripts
+
 Future plans:
 
 1. Make it so no arguments are required simply drag and drop the repo and press play and it saves video to desktop. (V 0.2)
