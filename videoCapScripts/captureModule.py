@@ -6,7 +6,7 @@ start = time.time()
 
 class Capture():
     # requires a capture type to be sent into recorder, if not does not work properly.
-    def __init__(self, path="/Users/brockdonahue/Desktop/OpenCVBootCamp/videos/" + str(start) + ".mp4", maxCache=3600, recorder = None):
+    def __init__(self, path: str="/Users/brockdonahue/Desktop/OpenCVBootCamp/videos/" + str(start) + ".mp4", maxCache: int=3600, recorder = None):
         self.path = path
         self.maxCache = maxCache
         self.cache = []
@@ -132,7 +132,7 @@ class Capture():
                 self.iterations += 1
                 self.recorder()
                 self.viewingCache = False
-             
+
 
     def nothing(self,**args):
         pass
